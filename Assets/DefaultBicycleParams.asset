@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b972175c6d0f7549bcc97bf9b88d1a6, type: 3}
+  m_Name: DefaultBicycleParams
+  m_EditorClassIdentifier: Assembly-CSharp::BicycleParameters
+  wheelbase: 1.02
+  trail: 0.08
+  headAngle: 0.3996
+  rearWheelRadius: 0.3
+  frontWheelRadius: 0.3
+  rearBodyMass: 85
+  rearBodyCOMx: 0.4376
+  rearBodyCOMz: 1
+  rearBodyIxx: 9.2
+  rearBodyIxz: 2.4
+  rearBodyIzz: 2.8
+  frontBodyMass: 4
+  frontBodyCOMx: 0.9
+  frontBodyCOMz: 1
+  frontBodyIxx: 0.05892
+  frontBodyIxz: -0.00708
+  frontBodyIzz: 0.00708
+  rearWheelMass: 2
+  rearWheelIyy: 0.06
+  rearWheelIxx: 0.12
+  frontWheelMass: 2
+  frontWheelIyy: 0.06
+  frontWheelIxx: 0.12
+  maxSteerTorque: 10
+  maxLeanTorque: 50
+  steerDamping: 3
+  leanDamping: 2
+  balanceLeanGain: 20
+  balanceLeanRateGain: 8
+  balanceSteerRateGain: 2
+  balanceMinSpeed: 0.3
+  gainScheduleLowSpeed: 1
+  gainScheduleHighSpeed: 8
+  gainMultiplierLow: 2.5
+  gainMultiplierHigh: 0.6
+  balanceMaxTorque: 30
+  fallThreshold: 1
+  maxSpeed: 15
+  minSpeedReset: 0.01
